@@ -1,0 +1,28 @@
+/* src/components/TodoForm.css */
+form {
+    display: flex;
+    margin-top: 16px;
+  }
+  
+  input[type="text"],
+  button {
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  button {
+    margin-left: 8px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+  }
+  
